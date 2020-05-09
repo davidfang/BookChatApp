@@ -86,6 +86,11 @@
 				this.loadData()
 			}
 		},
+		onShareAppMessage: function() {
+			uni.showShareMenu({
+				withShareTicket: true
+			})
+		},
 		onPageScroll(options) {
 			if (config.debug) console.log("onPageScroll", options)
 			if (options.scrollTop > 110) {

@@ -19,7 +19,7 @@
 					<view class="header-title">{{title}}</view>
 				</view>
 				<view class="col-3">
-					<view class="header-icon icon-right">
+					<!--<view class="header-icon icon-right">
 						<view wx:if="showShare" :style="iconPadding" @click="share">
 							<image src="/static/images/share.png"></image>
 						</view>
@@ -29,7 +29,7 @@
 						<view v-if="showSign" class="sign" :style="iconPadding">
 							<image src="/static/images/sign.png"></image>
 						</view>
-					</view>
+					</view>-->
 				</view>
 			</view>
 		</view>
@@ -52,7 +52,7 @@
 		props: {
 			title: {
 				type: String,
-				default: 'BookChat'
+				default: '大牛编程'
 			},
 			showIcon: {
 				type: Boolean,

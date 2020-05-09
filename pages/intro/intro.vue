@@ -124,10 +124,10 @@
 					<image src='../../static/images/star.png'></image>
 					<text>收藏</text>
 				</view>
-				<view :data-url='"/pages/comment/comment?identify="+book.book_id+"&score="+myScore' @click='comment' class='col item-min'>
+				<!--<view :data-url='"/pages/comment/comment?identify="+book.book_id+"&score="+myScore' @click='comment' class='col item-min'>
 					<image src='../../static/images/comment.png'></image>
 					<text>点评</text>
-				</view>
+				</view>-->
 			</view>
 		</view>
 	</view>
@@ -177,6 +177,11 @@
 			}
 			this.bookId = id
 			this.loadData()
+		},
+		onShareAppMessage: function() {
+			uni.showShareMenu({
+				withShareTicket: true
+			})
 		},
 		onShow() {
 			this.isLogin = util.getToken() != ""

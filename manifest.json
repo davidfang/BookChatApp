@@ -1,8 +1,8 @@
 {
-    "name" : "BookChat",
+    "name" : "大牛编程",
     "appid" : "__UNI__8FAB29C",
     "description" : "",
-    "versionName" : "1.4.0",
+    "versionName" : "1.4.1",
     "versionCode" : 140,
     "transformPx" : false,
     /* 5+App特有相关 */
@@ -85,7 +85,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx5e9a256b1c9dfc51",
+        "appid" : "wx7a59a55c5ace3e58",
         "setting" : {
             "urlCheck" : false
         },
@@ -98,7 +98,8 @@
         "usingComponents" : true,
         "uniStatistics" : {
             "enable" : true
-        }
+        },
+        "appid" : "2021001158618921"
     },
     "mp-baidu" : {
         "usingComponents" : true,
@@ -110,7 +111,8 @@
         "usingComponents" : true,
         "uniStatistics" : {
             "enable" : true
-        }
+        },
+        "appid" : "tt6adf1c62f5fa8475"
     },
     "h5" : {
         "uniStatistics" : {

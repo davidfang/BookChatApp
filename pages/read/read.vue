@@ -455,11 +455,11 @@
 				let screenBrightness = 0
 
 				// #ifndef H5
-				uni.getScreenBrightness({
-					success: function(res) {
-						screenBrightness = res.value
-					}
-				})
+				// uni.getScreenBrightness({
+				// 	success: function(res) {
+				// 		screenBrightness = res.value
+				// 	}
+				// })
 				// #endif
 
 				this.setting = setting
